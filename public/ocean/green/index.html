@@ -1,0 +1,474 @@
+<!-- 
+    /* DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM */ 
+    /* DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM */ 
+-->
+
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1A1A1ADF" />
+    <meta name="msapplication-navbutton-color" content="#1A1A1ADF" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1A1A1ADF" />
+
+    <title>Ocean Green - Samawwah Theme</title>
+
+    <!-- META -->
+    <meta name="keywords"
+        content="undangan, undangan digital, samawwah, wedding invitation, wedding online, wedding, nikah, undangan pernikahan">
+    <meta name="description"
+        content="Bagikan undangan pernikahan secara online dengan mudah dan juga cepat!. Harga Terjangkau!">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Samawwah Theme">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Samawwah">
+    <meta property="og:url" content="https://samawwah.com/">
+    <!-- <meta property="og:image" content="https://samawwah.com/images/cover.jpg"> -->
+    <meta property="og:description" content="Bagikan Undangan Pernikahan secara Online dengan Mudah dan Cepat!">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Samawwah Theme">
+    <!-- <meta name="twitter:image" content="https://samawwah.com/images/cover.jpg"> -->
+    <meta property="twitter:description" content="Bagikan Undangan Pernikahan secara Online dengan Mudah dan Cepat!">
+
+    <link rel="icon" href=".././favicon.ico" sizes="12x12" type="image/png" />
+
+    <!-- Carousnap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/carousnap/carousnap@v1.7/carousnap/carousnap.css"
+        integrity="sha384-AvIUz0OeqILp4fNEi51z9HqDHi/FXyvB54l4CFzgP3pV8V67SxE8j0CEmLHWIu/e" crossorigin="anonymous" />
+    <!-- Carousnap -->
+
+    <style type="text/css">
+        :root {
+            --main-color: #266140;
+            --main-background-color: #22573c;
+            --main-background-color-opacity: #22574380;
+            --main-background-color-opacity-linear: #30303080;
+            --secondary-background-color: #daffb0;
+            --secondary-background-color-opacity: #f3ffd3b2;
+            --button-color: #4da668;
+            --button-color-hover: #339138;
+            --background-image-content: url('./images/Backgrounds/Content_Background-Green.jpg');
+        }
+    </style>
+
+    <link rel="stylesheet" type="text/css" href=".././style.css" />
+
+</head>
+
+<body>
+    <!-- Alert Box -->
+    <div id="wrapper-alert">
+        <div class="alert">
+            <p>
+                <b>Berhenti !</b>
+                Versi peramban ini tidak didukung.
+                Gunakan Peramban web seperti <span>Chrome</span>/<span href="#">Firefox</span> dengan versi yang
+                paling baru!
+            </p>
+        </div>
+    </div>
+    <!-- Alert Box -->
+
+    <!-- Modal Pop Up -->
+    <section id="modal-welcome">
+        <div id="above-section">
+            <div class="wrap-modal">
+                <p>Undangan Pernikahan</p>
+                <h2>Ika & Wardi</h2>
+                <div class="img-wrapper">
+                    <img src=".././images/Decorations/rose 3.png" alt="Pernikahan" title="Undangan Pernikahan" />
+                </div>
+            </div>
+            <audio id="audio-flip" src=".././sound/page-flip-6.mp3"></audio>
+        </div>
+        <div id="bottom-section">
+            <div class="wrap-modal">
+                <div class="bottom-flex-container">
+                    <div class="box-flex">
+                        <p>Kepada Yang Terhormat : <br /> Bapak / Ibu / Saudara / Saudari</p>
+                        <h4 id="guest-name"></h4>
+                        <p class="note">Mohon maaf apabila ada kesalahan dalam penulisan nama dan gelar</p>
+                    </div>
+                    <div class="box-flex">
+                        <div class="button-wrapper"> <button id="open-invitation">Buka Undangan</button> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Pop Up -->
+
+    <!-- Button Audio -->
+    <div class="wrap-audio-btn">
+        <img src=".././images/Icons/pause.png" alt="Button Pause" title="Button Pause" id="btn-audio" />
+    </div>
+    <!-- Button Audio -->
+
+    <!-- Header -->
+    <header>
+        <div class="decoration-1">
+            <img src=".././images/Decorations/Frame.png" class="decor-frame" alt="rose" />
+            <img src=".././images/Decorations/Frame.png" class="decor-frame" alt="rose" />
+            <img src=".././images/Decorations/Frame.png" class="decor-frame" alt="rose" />
+            <img src=".././images/Decorations/Frame.png" class="decor-frame" alt="rose" />
+        </div>
+        <div class="main-header">
+            <!-- <div class="wrap-image">
+                <img src=".././images/Decorations/Bismillah white 1.png" alt="Bismillah" title="Bismillah" />
+            </div> -->
+            <p>Undangan Pernikahan</p>
+            <h1> Ika & Wardi </h1>
+            <div class="wrap-button">
+                <button type="buttton" id="scroll-to-event">Lihat Acara</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pengantar -->
+    <section class="announcement" id="opening">
+        <div class="container-announcement">
+            <div class="decoration-2">
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+            </div>
+            <div class="box-announcement">
+                <h2>Undangan Pernikahan</h2>
+                <p>Tuhan telah menciptakan mahluk-Nya berpasang-pasangan. Perkenankanlah kami merangkai kasih sayang
+                    yang Kau ciptakan di antara putra-putri kami. :
+                </p>
+                <div class="wrap-photos">
+                    <div class="photo">
+                        <img src=".././images/Photos/IMG_8379 1.png" alt="Ika" title="Ika" />
+                        <h4>Ika Farida, S.P.</h4>
+                        <p>Putri Sulung dari Bapak Niyaga Nugroho, S.H. dan <br />Ibu Elisa Rahmawati, S.Pdi.</p>
+                    </div>
+                    <span>&</span>
+                    <div class="photo">
+                        <img src=".././images/Photos/IMG_8381 1.png" alt="Wardi" title="Wardi" />
+                        <h4>Wardi Jailaini, A.Md.</h4>
+                        <p>Putra Bungsu dari Bapak Hengki dan <br />Ibu Anita</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Countdown -->
+    <section id="countdown"></section>
+
+    <!-- Tanggal Acara -->
+    <section class="announcement">
+        <div class="container-announcement">
+            <div class="decoration-2">
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+            </div>
+            <div class="box-announcement">
+                <h2>Tanggal Acara</h2>
+                <p>Yang akan dilaksanakan pada :</p>
+                <div class="wrap-date">
+                    <div class="box-date">
+                        <h4>Akad Nikah</h4>
+                        <h1 id="date-event-1">4 Juli 2021</h1>
+                        <p id="day-event-1">Minggu</p>
+                        <p>08:00 WIB s/d Selesai</p>
+                        <div class=" wrap-button-event">
+                            <a target="_blank" rel="noopener" href="#">
+                                Ingatkan via Google Calendar
+                            </a>
+                            <!-- <a target="_blank" rel="noopener"
+                                href="https://www.google.com/calendar/render?action=TEMPLATE&text=Akad+Nikah+-+Ika+%26+Wardi&details=Acara+Akad+Nikah+Ika+%26+Wardi%0AGedung+Hijir+Ismail+-+Jl.+Garu+III+Kec.+Medan+Amplas&location=Kota+Medan%2C+Sumatera+Utara&dates=20210704T010000Z%2F20210704T030000Z">
+                                Ingatkan via Google Calendar
+                            </a> -->
+
+                        </div>
+                    </div>
+                    <div class="box-date">
+                        <h4>Resepsi</h4>
+                        <h1 id="date-event-2">4 Juli 2021</h1>
+                        <p id="day-event-2"> Minggu</p>
+                        <p>10:00 WIB s/d 18:00 WIB</p>
+                        <div class=" wrap-button-event">
+                            <a target="_blank" rel="noopener" href="#">
+                                Ingatkan via Google Calendar
+                            </a>
+                            <!-- <a target="_blank" rel="noopener"
+                                href="https://www.google.com/calendar/render?action=TEMPLATE&text=Akad+Nikah+-+Ika+%26+Wardi&details=Acara+Akad+Nikah+Ika+%26+Wardi%0AGedung+Hijir+Ismail+-+Jl.+Garu+III+Kec.+Medan+Amplas&location=Kota+Medan%2C+Sumatera+Utara&dates=20210704T010000Z%2F20210704T030000Z">
+                                Ingatkan via Google Calendar
+                            </a> -->
+                        </div>
+                    </div>
+                </div> <br />
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokasi Acara -->
+    <section class="announcement">
+        <div class="container-announcement">
+            <div class="decoration-2">
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+            </div>
+            <div class="box-announcement">
+                <h2>Lokasi Acara</h2>
+                <p>Adapun acara Akad Nikah dan Resepsi akan dilakukan di : </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.1928011457426!2d98.70615501470577!3d3.5429495974216416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303130819da0ddb3%3A0x5ae3c2fd7b5c028f!2sAULA%20HIJIR%20ISMAIL!5e0!3m2!1sid!2sid!4v1622702752581!5m2!1sid!2sid"
+                    style="border:0;" allowfullscreen="false" loading="lazy" class="map-google" title="Maps"></iframe>
+                <h4 class="address">( Aula Hijir Ismail ) - Jl. Garu III Kec. Medan Amplas<br /> Kota Medan, Sumatera
+                    Utara </h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galleri Foto -->
+    <section id="gallery">
+        <div class="container-gallery">
+            <div class="decoration-2">
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+            </div>
+            <div class="box-gallery">
+                <h2>Galeri Foto</h2>
+                <div class="carouSnap-container">
+                    <!-- Caroousnap Plugin Javascript-->
+                    <div class="carouSnap" data-ratio="medium-horizontal">
+                        <div class="numbSlide"></div>
+                        <div class="bnSlide"></div>
+                        <div class="photoCollect">
+                            <img src=".././images/Gallery/Photo-Gallery-1.jpg" alt="Ika & Wardi Photo"
+                                title="Foto Galeri 1" loading="lazy" />
+                            <img src=".././images/Gallery//Photo-Gallery-2.jpg" alt="Ika & Wardi Photo"
+                                title="Foto Galeri 2" loading="lazy" />
+                            <img src=".././images/Gallery/Photo-Gallery-3.jpg" alt="Ika & Wardi Photo"
+                                title="Foto Galeri 3" loading="lazy" />
+                        </div>
+                        <div class="indCat"></div>
+                    </div>
+                    <!-- Caroousnap Plugin Javascript-->
+                </div>
+                <p> Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari
+                    jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu
+                    rasa kasih dan sayang.<br /> <b>(QS. Ar-Rum Ayat 21)</b>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Protokol Kesehatan -->
+    <section class="announcement">
+        <div class="container-announcement">
+            <div class="decoration-2">
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+            </div>
+            <div class="box-announcement">
+                <h2>Protokol Kesehatan</h2>
+                <p> Untuk mematuhi himbauan pemerintah dalam pencegahan penularan Covid-19, kami mengharap bapak/ibu
+                    tamu undangan agar: </p>
+                <ul class="protokol-list">
+                    <li>
+                        <img src=".././images/Icons/Masker N95.svg" alt="Memakai Masker" />
+                        <p>Selalu memakai masker selama acara berlangsung.</p>
+                    </li>
+                    <li>
+                        <img src=".././images/Icons/Hand Sanitizer.svg" alt="Mencuci Tangan" />
+                        <p>Mencuci tangan atau menggunakan hand sanitizer sebelum memasuki lokasi acara.</p>
+                    </li>
+                    <li>
+                        <img src=".././images/Icons/Social Distance 2m.svg" alt="Menjaga Jarak" />
+                        <p>Menjaga jarak antara satu sama lain, dan tidak berkerumunan.</p>
+                    </li>
+                    <li>
+                        <img src=".././images/Icons/No Contact.svg" alt="Hindari Kontak Fisik" />
+                        <p>Tidak melakukan kontak fisik, seperti bersalaman dan mengganti dengan salaman jarak jauh.</p>
+                    </li>
+                </ul>
+                <p> Terima kasih atas segala perhatian Bapak/Ibu/Saudara/i, Semoga kita dapat mematuhi protokol
+                    kesehatan di atas dan terjaga dari wabah Covid-19 dan selalu dalam keadaan sehat wal’afiat. </p>
+                <br />
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Streaming -->
+    <section class="announcement">
+        <div class="container-announcement">
+            <div class="decoration-2">
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+            </div>
+            <div class="box-announcement">
+                <h2>Walimah Online</h2>
+                <p> Izinkan kami mengajak tamu undangan untuk menyaksikan akad dan pernikahan kami secara virtual secara
+                    langsung, dengan menekan tombol dibawah ini: </p>
+                <div class="wrap-live">
+                    <div class="box-live">
+                        <div class="logo-wrapper">
+                            <img src=".././images/Icons/Instagram_Logo.png" alt="Instagram Live"
+                                title="Instagram Live" />
+                        </div>
+                        <p>Instagram Live</p>
+                        <div class="wrap-button-event">
+                            <a target="_blank" rel="noopener" href="https://instagram.com/samawwah">@samawwah.com</a>
+                        </div>
+                    </div>
+                    <div class="box-live">
+                        <div class="logo-wrapper">
+                            <img src=".././images/Icons/Instagram_Logo.png" alt="Instagram Live"
+                                title="Instagram Live" />
+                        </div>
+                        <p>Instagram Live</p>
+                        <div class="wrap-button-event">
+                            <a target="_blank" rel="noopener" href="https://instagram.com/samawwah">@samawwah.com</a>
+                        </div>
+                    </div>
+                </div> <br />
+            </div>
+        </div>
+    </section>
+
+    <!-- Amplop Online -->
+
+    <section class="announcement">
+        <div class="container-announcement">
+            <div class="decoration-2">
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+            </div>
+            <div class="box-announcement">
+                <h2>Amplop Online</h2>
+                <p>
+                    tanpa mengurangi rasa hormat. Bagi anda yang ingin memberikan tanda terima kasih untuk
+                    kami, dapat melalui:
+                </p>
+                <div class="wrap-gift">
+                    <div class="box-gift">
+                        <h4>Nama Bank </h4>
+                        <h1 id="no-rekening-1">003111223344</h1>
+                        <p>
+                            a.n <b>Nama Pengundang</b>
+                        </p>
+                        <div class="wrap-button-event">
+                            <button id="copy-accnum">Salin Nomor Rekening 📄</button>
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </div>
+        </div>
+    </section>
+
+    <!-- Buku Tamu -->
+    <section class="announcement">
+        <div class="container-announcement">
+            <div class="decoration-2">
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+                <img src=".././images/Decorations/rose 3.png" class="decor-rose" alt="rose" />
+            </div>
+            <div class="box-announcement">
+                <h2>Buku Tamu</h2>
+                <div class="wrap-guestbook">
+                    <form name="form-guestbook" autocomplete="off">
+                        <div class="input-1">
+                            <label>Nama : <br />
+                                <input type="text" id="nama" name="nama" placeholder="Ketikkan Nama Anda ... "
+                                    maxlength="30" minlength="3" pattern="^[a-zA-Z0-9_ ]*$" class="input-guest"
+                                    required />
+                            </label>
+                        </div>
+                        <div class="input-1">
+                            <label>Ucapan : <small id="num-char">(0 / 256)</small><br />
+                                <textarea name="ucapan" id="ucapan" placeholder="Apa yang ingin Anda Sampaikan ... "
+                                    pattern="^[a-zA-Z0-9_ ]*$" maxlength="256" minlength="5" class="input-guest"
+                                    required></textarea>
+                            </label>
+                        </div>
+                        <input type="submit" value="Kirim" class="btn-kirim" id="send-button" />
+                    </form>
+                    <div class="container-ucapan" id="guest-list">
+                        <div class="empty-list">
+                            <p> Memuat ... </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Penutup -->
+    <section id="closing">
+        <div class="wrap-closing">
+            <p> Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/Ibu/Saudara/i berkenan
+                hadir untuk memberikan doa restu kepada kedua mempelai. Atas kehadiran serta doa restu, kami ucapkan
+                terima kasih. </p>
+            <h4>Turut berbahagia segenap keluarga besar</h4>
+            <h2>Ika & Wardi</h2>
+        </div>
+    </section>
+
+    <!-- Audio -->
+    <audio id="backsound-1">
+        <source
+            src="https://firebasestorage.googleapis.com/v0/b/samawwah-project.appspot.com/o/music%2F%5BSaxophone%20cover%20by%20Yohanes%20Arsadewa%5D%20Di%20Sepertiga%20Malam%20-%20Rey%20Mbayang.mp3?alt=media&token=6c1bff8c-8b89-419a-a649-347560cf5125"
+            type="audio/mpeg">
+    </audio>
+    <!-- Audio -->
+
+    <!-- Footer -->
+    <footer>
+        <p>Undangan Pernikahan dari <a href="https://samawwah.com" target="_blank" rel="noopener">samawwah.com</a> </p>
+        <p>
+            This site is protected by reCAPTCHA and the Google
+            <a target="_blank" rel="noopener" href="https://policies.google.com/privacy">Privacy Policy</a> and
+            <a target="_blank" rel="noopener" href="https://policies.google.com/terms">Terms of Service</a> apply.
+        </p>
+    </footer>
+
+    <script type="text/javascript" src=".././script.js"></script>
+
+    <!-- Carousnap -->
+    <script src="https://cdn.jsdelivr.net/gh/carousnap/carousnap@v1.7/carousnap/carousnap.js"
+        integrity="sha384-1mHmu4fyyExEnjX4DGx0QsSsPWPIaJ7oFcQ3LIL/gAT7t5i6mNfW80xJOzEHfNgv"
+        crossorigin="anonymous"></script>
+    <!-- Carousnap -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+    <script src=".././firebase.js" type="text/javascript"></script>
+</body>
+
+</html>
+
+<!-- 
+    /* DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM */ 
+    /* DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM DESIGN BY SAMAWWAH.COM */ 
+-->
